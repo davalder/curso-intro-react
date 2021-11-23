@@ -17,7 +17,6 @@ function AppUI() {
         error,
         loading,
         searchedTodos,
-        deleteTodo,
         openModal,
         setOpenModal,
     } = React.useContext(TodoContext);
@@ -37,7 +36,6 @@ function AppUI() {
                         key={todo.text}
                         text={todo.text}
                         completed={todo.completed}
-                        onDelete={() => deleteTodo(todo.text)}
                     />
                 ))}
             </TodoList>
