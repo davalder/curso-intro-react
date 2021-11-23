@@ -9,6 +9,7 @@ function TodoCancelIcon(props) {
                 src={iconCancel}
                 className="Icon-delete"
                 onClick={props.onDelete}
+                alt='cancel icon'
             />
         </figure>
     );
