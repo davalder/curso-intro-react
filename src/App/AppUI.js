@@ -17,7 +17,6 @@ function AppUI() {
         error,
         loading,
         searchedTodos,
-        completeTodo,
         deleteTodo,
         openModal,
         setOpenModal,
@@ -38,7 +37,6 @@ function AppUI() {
                         key={todo.text}
                         text={todo.text}
                         completed={todo.completed}
-                        onComplete={() => completeTodo(todo.text)}
                         onDelete={() => deleteTodo(todo.text)}
                     />
                 ))}

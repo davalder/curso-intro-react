@@ -1,0 +1,15 @@
+.Icon-check {
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    opacity: 20%;
+}
+
+.Icon-check--active {
+    opacity: 100%;
+}
+
+.Icon-check:hover {
+    opacity: 100%;
+}

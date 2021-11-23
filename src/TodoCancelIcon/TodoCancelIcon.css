@@ -1,0 +1,13 @@
+
+.Icon-delete {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: -13px;
+    right: 0;
+    opacity: 70%;
+}
+
+.Icon-delete:hover {
+    opacity: 100%;
+}
